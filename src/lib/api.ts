@@ -1,6 +1,6 @@
 import { refreshAccessToken } from "./auth";
 
-const API_BASE_URL = "http://localhost:5000";
+const API_BASE_URL = "https://backend-task.work.gd";
 
 export const apiRequest = async (
   endpoint: string,
